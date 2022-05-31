@@ -97,6 +97,7 @@ ul {
 .contacts-link:hover .icon-contacts,
 .contacts-link:focus .icon-contacts {
     color: var(--accent-color);
+    fill: var(--accent-color)
 
 
 }
@@ -104,6 +105,7 @@ ul {
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--accent-color);
+    fill: var(--accent-color)
 
 }
 
@@ -153,6 +155,7 @@ ul {
 .icon-contacts {
     margin-right: 10px;
     color: #AFB1B8;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact {
@@ -321,7 +324,7 @@ ul {
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+продовження
 .buttons-item+.buttons-item {
     margin-left: 8px;
 }
